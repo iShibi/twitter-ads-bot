@@ -1,0 +1,41 @@
+{
+  "name": "twitter-ads-bot",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Shubham Parihar <shubhamparihar391@gmail.com>",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:dev": "tsc -w",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iShibi/twitter.js-demo-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "twitter.js",
+    "tjs",
+    "demo",
+    "example",
+    "twitter",
+    "api"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iShibi/twitter.js-demo-bot/issues"
+  },
+  "homepage": "https://github.com/iShibi/twitter.js-demo-bot#readme",
+  "dependencies": {
+    "@prisma/client": "^3.6.0",
+    "twitter.js": "^0.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "prisma": "^3.6.0",
+    "twitter-types": "^0.18.3",
+    "typescript": "^4.5.4"
+  }
+}

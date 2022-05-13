@@ -1,0 +1,13 @@
+{
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma",
+  },
+  "typescript.preferences.quoteStyle": "single",
+  "files.exclude": {
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.js.map": true
+  }
+}
